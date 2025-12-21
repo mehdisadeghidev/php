@@ -3,7 +3,8 @@ FROM dunglas/frankenphp:1.10-php8.5-trixie
 ENV SERVER_NAME=:80
 
 RUN apt-get update -y && \
-    apt-get install -y tini
+    apt-get install -y tini && \
+    rm -rf /var/lib/apt/lists/*
 
 RUN install-php-extensions \
     pdo_pgsql \
