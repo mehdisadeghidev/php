@@ -1,4 +1,4 @@
-FROM dunglas/frankenphp:1.10-php8.5-trixie
+FROM dunglas/frankenphp:1.11-php8.5-trixie
 
 ENV SERVER_NAME=:80
 
