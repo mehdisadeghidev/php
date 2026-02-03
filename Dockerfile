@@ -10,6 +10,7 @@ RUN install-php-extensions \
     pdo_pgsql \
     gd \
     intl \
+    calendar \
     zip \
     bcmath \
     pcntl \
